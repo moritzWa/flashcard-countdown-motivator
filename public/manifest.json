@@ -16,5 +16,6 @@
       "type": "All",
       "level": "Read"
     }
-  ]
+  ],
+  "repoUrl": "https://github.com/moritzWa/flashcard-countdown-motivator/"
 }
