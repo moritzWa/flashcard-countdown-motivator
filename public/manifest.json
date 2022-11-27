@@ -1,17 +1,15 @@
 {
+  "author": "moritzWa",
+  "name": "Flashcard Countdown Motivator",
+  "description": "A visual countdown for the flashcard UI that motivates you to not spend too much time on each individual card but move to the next card as soon as a given time is expired.",
+  "enableOnMobile": false,
+  "id": "moritzWa-d877w59",
   "manifestVersion": 1,
-  "id": "plugin_template",
-  "name": "Plugin Template",
-  "author": "remnote",
-  "repoUrl": "",
   "version": {
     "major": 0,
     "minor": 0,
     "patch": 1
   },
-  "theme": [],
-  "enableOnMobile": false,
-  "description": "",
   "requestNative": false,
   "requiredScopes": [
     {
