@@ -47,7 +47,7 @@ async function onActivate(plugin: ReactRNPlugin) {
 
   // not example stuff here
 
-  await plugin.app.registerWidget('popup', WidgetLocation.FloatingWidget, {
+  await plugin.app.registerWidget('countDown', WidgetLocation.FloatingWidget, {
     dimensions: { height: 300, width: 'auto' },
   });
 
@@ -55,7 +55,11 @@ async function onActivate(plugin: ReactRNPlugin) {
     if ((data.scroe as QueueInteractionScore) === QueueInteractionScore.AGAIN) {
       console.log("11511 You've got it wrong!");
       setTimeout(async () => {
-        await plugin.window.openFloatingWidget('popup', { top: -180 }, 'rn-queue__show-answer-btn');
+        await plugin.window.openFloatingWidget(
+          'countDown',
+          { top: -180 },
+          'rn-queue__show-answer-btn'
+        );
       }, 25);
     }
   });
